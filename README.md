@@ -24,14 +24,17 @@ Open the Arduino IDE and upload color_subscriber.ino
 roscore
 
 //new terminal
+
 {play bag or start camera}
 
 //If working with UT Segway bots and using kinnect then also kill arduino_driver and battery_diagnostics
 
 //new terminal
+
 rosrun {package name} color_finder.cpp
 
 //new terminal
+
 rosrun rosserial_python serial_node.py {the arduino serial port}
 
 ***********************

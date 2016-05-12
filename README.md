@@ -2,7 +2,7 @@
 A project for Freshmen Research Initiative that uses camera images to detect a person's shirt color and display it using an LED strip.
 
 *********************
-** Getting started **
+ Getting started 
 *********************
 The first step to this project is to download the rosserial package http://wiki.ros.org/rosserial_arduino
 
@@ -12,14 +12,14 @@ http://wiki.ros.org/rosserial_arduino/Tutorials/Arduino%20IDE%20Setup
 ros_lib allows the Arduino IDE to correctly compile ROS commands 
 
 ***********************************************
-** Add code to package and upload to arduino **
+ Add code to package and upload to arduino 
 ***********************************************
 Add the color_finder.cpp , and color_subscriber.ino files toyour ROS workspace
 
 Open the Arduino IDE and upload color_subscriber.ino
 
 *****************
-** Run the code**
+ Run the code
 *****************
 roscore
 
@@ -35,7 +35,7 @@ rosrun {package name} color_finder.cpp
 rosrun rosserial_python serial_node.py {the arduino serial port}
 
 ***********************
-** File descriptions **
+ File descriptions
 ***********************
 when switching image sources change the subscriber in the color_finder file
 

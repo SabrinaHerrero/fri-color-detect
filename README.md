@@ -25,7 +25,7 @@ roscore
 
 //new terminal
 
-{play bag or start camera}
+{play rosbag or start camera}
 
 //If working with UT Segway bots and using kinnect then also kill arduino_driver and battery_diagnostics
 

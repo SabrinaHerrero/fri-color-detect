@@ -16,7 +16,7 @@ ros_lib allows the Arduino IDE to correctly compile ROS commands
 ***********************************************
 Add the color_finder.cpp , and color_subscriber.ino files to your ROS workspace
 
-Open the Arduino IDE and upload color_subscriber.ino
+Open the Arduino IDE and upload color_subscriber.ino to the 12 pin
 
 *****************
  Run the code
